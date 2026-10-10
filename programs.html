@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programs – HealthFirst CEP</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-heart-pulse"></i>
+        <span>HealthFirst</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="programs.html" class="active">Programs</a></li>
+        <li><a href="awareness.html">Awareness</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="section-tag">Our Programs</div>
+      <h1>Health Intervention Programs</h1>
+      <p>Comprehensive, evidence-based programs designed to prevent disease, promote wellness, and improve health outcomes across communities.</p>
+    </div>
+  </section>
+
+  <!-- Programs List -->
+  <section class="section" style="background: var(--bg-soft)">
+    <div class="container">
+      <div class="section-tag">All Programs</div>
+      <h2 class="section-title">Our Intervention Initiatives</h2>
+      <p class="section-sub">Each program is designed with community needs at the center, combining medical expertise with grassroots engagement.</p>
+
+      <div class="programs-grid">
+        <!-- Cardiovascular -->
+        <div class="program-card" id="cardiovascular">
+          <div class="program-card-header">
+            <div class="program-card-icon" style="background:#EFF6FF">
+              <i class="fa-solid fa-heart" style="color:#2563EB"></i>
+            </div>
+            <div>
+              <h3>CardioSafe Program</h3>
+              <p style="color:var(--text-muted); font-size:.85rem">Cardiovascular Health Intervention</p>
+            </div>
+          </div>
+          <div class="program-card-body">
+            <p>A comprehensive community-based program targeting hypertension, heart disease risk reduction, and lifestyle modification. Includes free BP monitoring camps, dietary counseling, and exercise workshops.</p>
+            <p><strong>Key Activities:</strong> Blood pressure screening, cholesterol testing, cooking workshops, yoga sessions, support groups for hypertensive patients.</p>
+            <p><strong>Impact:</strong> 8,000+ people screened, 1,200 referred to treatment, 60% improvement in medication adherence among participants.</p>
+            <div class="program-tags">
+              <span class="tag">Free Screening</span>
+              <span class="tag">Lifestyle Counseling</span>
+              <span class="tag">Support Groups</span>
+              <span class="tag">Yoga & Exercise</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mental Health -->
+        <div class="program-card" id="mental">
+          <div class="program-card-header">
+            <div class="program-card-icon" style="background:#F0FDF4">
+              <i class="fa-solid fa-brain" style="color:#16A34A"></i>
+            </div>
+            <div>
+              <h3>MindWell Initiative</h3>
+              <p style="color:var(--text-muted); font-size:.85rem">Mental Health Awareness & Support</p>
+            </div>
+          </div>
+          <div class="program-card-body">
+            <p>Addressing the mental health crisis through community education, stigma reduction campaigns, and accessible counseling services. We train community health workers to identify early warning signs.</p>
+            <p><strong>Key Activities:</strong> School-based mental health workshops, teacher training, free counseling camps, helpline service, peer support groups.</p>
+            <p><strong>Impact:</strong> 200+ schools covered, 5,000+ students educated, 800+ free counseling sessions provided.</p>
+            <div class="program-tags">
+              <span class="tag">School Programs</span>
+              <span class="tag">Free Counseling</span>
+              <span class="tag">Stigma Reduction</span>
+              <span class="tag">Helpline</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Diabetes -->
+        <div class="program-card" id="diabetes">
+          <div class="program-card-header">
+            <div class="program-card-icon" style="background:#FFF7ED">
+              <i class="fa-solid fa-droplet" style="color:#EA580C"></i>
+            </div>
+            <div>
+              <h3>DiabetesAware Program</h3>
+              <p style="color:var(--text-muted); font-size:.85rem">Diabetes Prevention & Management</p>
+            </div>
+          </div>
+          <div class="program-card-body">
+            <p>Targeting the diabetes epidemic through early screening, dietary education, and long-term disease management support. Special focus on rural communities where access to care is limited.</p>
+            <p><strong>Key Activities:</strong> Blood glucose screening, HbA1c testing, diabetic diet workshops, foot care education, insulin management guidance.</p>
+            <p><strong>Impact:</strong> 12,000+ screened, 2,500 newly diagnosed connected to care, 40% reduction in hospitalizations among enrolled patients.</p>
+            <div class="program-tags">
+              <span class="tag">Blood Sugar Screening</span>
+              <span class="tag">Diet Education</span>
+              <span class="tag">Rural Outreach</span>
+              <span class="tag">Disease Management</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Maternal & Child -->
+        <div class="program-card" id="maternal">
+          <div class="program-card-header">
+            <div class="program-card-icon" style="background:#FDF4FF">
+              <i class="fa-solid fa-baby" style="color:#9333EA"></i>
+            </div>
+            <div>
+              <h3>HealthyMom & Child</h3>
+              <p style="color:var(--text-muted); font-size:.85rem">Maternal & Child Health Program</p>
+            </div>
+          </div>
+          <div class="program-card-body">
+            <p>Comprehensive maternal and child health program ensuring every mother and child has access to essential health services, nutrition counseling, and immunization support.</p>
+            <p><strong>Key Activities:</strong> Antenatal care, nutritional supplementation, immunization drives, safe delivery workshops, postpartum mental health support.</p>
+            <p><strong>Impact:</strong> 3,000+ mothers enrolled, 95% immunization coverage in target villages, 30% reduction in low birth weight infants.</p>
+            <div class="program-tags">
+              <span class="tag">Antenatal Care</span>
+              <span class="tag">Immunization</span>
+              <span class="tag">Nutrition</span>
+              <span class="tag">Postpartum Support</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Respiratory -->
+        <div class="program-card" id="respiratory">
+          <div class="program-card-header">
+            <div class="program-card-icon" style="background:#FFF1F2">
+              <i class="fa-solid fa-lungs" style="color:#E11D48"></i>
+            </div>
+            <div>
+              <h3>BreatheFree Campaign</h3>
+              <p style="color:var(--text-muted); font-size:.85rem">Respiratory Health & Anti-Tobacco</p>
+            </div>
+          </div>
+          <div class="program-card-body">
+            <p>Fighting respiratory disease through anti-tobacco campaigns, air quality awareness, and treatment support for chronic respiratory conditions like asthma and COPD.</p>
+            <p><strong>Key Activities:</strong> Spirometry testing, smoking cessation clinics, air quality monitoring education, inhalation device training, school anti-tobacco programs.</p>
+            <p><strong>Impact:</strong> 1,500+ people helped quit smoking, 4,000 COPD/asthma patients enrolled, 60+ schools declared tobacco-free.</p>
+            <div class="program-tags">
+              <span class="tag">Anti-Tobacco</span>
+              <span class="tag">Smoking Cessation</span>
+              <span class="tag">Asthma Care</span>
+              <span class="tag">Air Quality</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Infectious Disease -->
+        <div class="program-card" id="infectious">
+          <div class="program-card-header">
+            <div class="program-card-icon" style="background:#ECFEFF">
+              <i class="fa-solid fa-virus-slash" style="color:#0891B2"></i>
+            </div>
+            <div>
+              <h3>InfectShield Program</h3>
+              <p style="color:var(--text-muted); font-size:.85rem">Infectious Disease Control</p>
+            </div>
+          </div>
+          <div class="program-card-body">
+            <p>Comprehensive infectious disease control targeting HIV/AIDS, tuberculosis, and vector-borne diseases through awareness, testing, treatment linkage, and hygiene promotion.</p>
+            <p><strong>Key Activities:</strong> HIV testing camps, TB DOTS support, dengue/malaria prevention drives, hand hygiene campaigns, condom distribution, water purification education.</p>
+            <p><strong>Impact:</strong> 6,000+ HIV tests conducted, 400 TB patients on DOTS, 70% reduction in dengue cases in target areas.</p>
+            <div class="program-tags">
+              <span class="tag">HIV/AIDS</span>
+              <span class="tag">Tuberculosis</span>
+              <span class="tag">Vaccination</span>
+              <span class="tag">Hygiene Promotion</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How Programs Work -->
+  <section class="section" style="background:#fff">
+    <div class="container" style="text-align:center">
+      <div class="section-tag">Our Approach</div>
+      <h2 class="section-title">How Our Programs Work</h2>
+      <p class="section-sub">A structured, community-centered process ensures maximum reach and sustainable impact.</p>
+      <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:24px; margin-top:48px;">
+        <div style="padding:28px 20px; background:var(--bg-soft); border-radius:var(--radius); border:1px solid var(--border);">
+          <div style="width:48px;height:48px;border-radius:50%;background:var(--primary);color:#fff;font-weight:800;font-size:1.2rem;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;">1</div>
+          <h4 style="margin-bottom:8px">Community Assessment</h4>
+          <p style="font-size:.88rem;color:var(--text-muted)">Identify priority health needs through surveys, data analysis, and community consultations.</p>
+        </div>
+        <div style="padding:28px 20px; background:var(--bg-soft); border-radius:var(--radius); border:1px solid var(--border);">
+          <div style="width:48px;height:48px;border-radius:50%;background:var(--primary);color:#fff;font-weight:800;font-size:1.2rem;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;">2</div>
+          <h4 style="margin-bottom:8px">Program Design</h4>
+          <p style="font-size:.88rem;color:var(--text-muted)">Develop culturally appropriate, evidence-based interventions with medical expert input.</p>
+        </div>
+        <div style="padding:28px 20px; background:var(--bg-soft); border-radius:var(--radius); border:1px solid var(--border);">
+          <div style="width:48px;height:48px;border-radius:50%;background:var(--primary);color:#fff;font-weight:800;font-size:1.2rem;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;">3</div>
+          <h4 style="margin-bottom:8px">Implementation</h4>
+          <p style="font-size:.88rem;color:var(--text-muted)">Deploy trained health workers and volunteers to deliver programs in schools, villages, and workplaces.</p>
+        </div>
+        <div style="padding:28px 20px; background:var(--bg-soft); border-radius:var(--radius); border:1px solid var(--border);">
+          <div style="width:48px;height:48px;border-radius:50%;background:var(--primary);color:#fff;font-weight:800;font-size:1.2rem;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;">4</div>
+          <h4 style="margin-bottom:8px">Monitoring & Evaluation</h4>
+          <p style="font-size:.88rem;color:var(--text-muted)">Track outcomes, measure impact, and continuously improve program effectiveness.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container cta-content">
+      <h2>Participate in Our Programs</h2>
+      <p>Register your community, school, or workplace for our free health intervention programs today.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-white">Register Now</a>
+        <a href="resources.html" class="btn btn-outline-white">Download Brochure</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo logo-light"><i class="fa-solid fa-heart-pulse"></i><span>HealthFirst</span></a>
+        <p>A CEP initiative dedicated to building healthier communities through intervention and awareness.</p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="awareness.html">Awareness</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Health Topics</h4>
+        <ul>
+          <li><a href="#cardiovascular">Cardiovascular</a></li>
+          <li><a href="#mental">Mental Health</a></li>
+          <li><a href="#diabetes">Diabetes</a></li>
+          <li><a href="#maternal">Maternal Health</a></li>
+          <li><a href="#infectious">Infectious Disease</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Info</h4>
+        <p><i class="fa-solid fa-location-dot"></i> 12 Health Campus, Pune, Maharashtra 411001</p>
+        <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+        <p><i class="fa-solid fa-envelope"></i> info@healthfirst-cep.org</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 HealthFirst CEP. All rights reserved. | Community Engagement Project</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
